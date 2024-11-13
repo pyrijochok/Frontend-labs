@@ -1,0 +1,30 @@
+p{
+    margin: 0;
+}
+
+body{
+    text-align: center;
+}
+
+#users{
+    display: flex;
+    width:100%;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.label{
+    font-weight: bold;
+    margin-right: 5px;
+}
+
+.user-cell-container,.user-country-container,.user-postcode-container{
+    display: flex;
+}
+
+.user-container{
+    padding: 15px;
+    width: 150px;
+    text-align: center;
+}
+
