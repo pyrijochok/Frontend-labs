@@ -1,0 +1,65 @@
+body {
+    margin: 0 auto;
+    margin-top: 70px;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.container {
+    width: 50%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Верхній блок */
+.header {
+    width: 100%;
+    height: 15%;
+    background-color: #4a90e2;
+    text-align: center;
+    color: #000;
+    padding: 20px 0;
+    box-sizing: border-box;
+}
+
+/* Центральний блок */
+.content {
+    width: 100%;
+    overflow: hidden; 
+    margin: 0;
+    padding: 0;
+}
+
+.main-text {
+    float: left;
+    width: 80%; 
+    height: 400px;
+    background-color: #6be167;
+    text-align: center;
+    line-height: 400px;
+    box-sizing: border-box;
+}
+
+.side-img {
+    float: left;
+    width: 20%; 
+    height: 400px; 
+    background-color: #468e2c;
+    text-align: center;
+    line-height: 400px;
+    box-sizing: border-box;
+}
+
+/* Нижній блок */
+.footer {
+    width: 100%;
+    height: 15%; 
+    background-color: #52efa8;
+    text-align: center;
+    color: #000;
+    padding: 20px 0;
+    box-sizing: border-box;
+    clear: both; /* Очищення float */
+}
